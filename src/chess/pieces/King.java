@@ -6,7 +6,7 @@ import chess.Color;
 
 public class King extends ChessPiece{
 
-	private static final char KING = '\u2654';
+//	private static final char KING = '\u2654';
 	
 	public King(Board board, Color color) {
 		super(board, color);
@@ -14,7 +14,7 @@ public class King extends ChessPiece{
 	
 	@Override
 	public String toString() {
-		return String.valueOf(KING);
+		return "K";
 	}
 	
 }

@@ -6,7 +6,7 @@ import chess.Color;
 
 public class Rook extends ChessPiece {
 
-	private static final char ROOK = '\u2656';
+//	private static final char ROOK = '\u2656';
 	
 	public Rook(Board board, Color color) {
 		super(board, color);
@@ -14,7 +14,7 @@ public class Rook extends ChessPiece {
 
 	@Override
 	public String toString() {
-		return String.valueOf(ROOK);
+		return "R";
 	}
 	
 }
